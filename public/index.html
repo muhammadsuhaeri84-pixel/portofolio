@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Muhammad Suhaeri</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #e5e5e5;
+            color: #ffffff;
+            padding: 30px;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            background: #111111;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: 35%;
+            background: #1c1c1c;
+            padding: 30px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .profile h2 {
+            font-size: 23px;
+            letter-spacing: 1px;
+        }
+
+        .profile p {
+            color: #bbbbbb;
+            margin-top: 8px;
+        }
+
+        .sidebar h3 {
+            font-size: 18px;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 8px;
+            margin: 25px 0 15px;
+        }
+
+        .sidebar p,
+        .sidebar li {
+            font-size: 13px;
+            line-height: 1.8;
+            color: #cccccc;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* MAIN CONTENT */
+        .main-content {
+            width: 65%;
+            padding: 40px;
+        }
+
+        .header {
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            color: #aaaaaa;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 20px;
+            text-transform: uppercase;
+            border-left: 5px solid #ffffff;
+            padding-left: 12px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item h4 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .item span {
+            font-size: 12px;
+            color: #aaaaaa;
+        }
+
+        .item p {
+            margin-top: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skills span {
+            background: #333333;
+            border: 1px solid #666666;
+            padding: 8px 12px;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+        @media screen and (max-width: 700px) {
+            body {
+                padding: 10px;
+            }
+
+            .cv-container {
+                flex-direction: column;
+            }
+
+            .sidebar,
+            .main-content {
+                width: 100%;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .cv-container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv-container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+        <div class="profile">
+            <!-- Ganti foto.jpg dengan foto kamu -->
+            <img src="profil.jpeg" alt="Foto Profil">
+
+            <h2>Muhammad Suhaeri</h2>
+            <p>Computer System Student</p>
+        </div>
+
+        <h3>CONTACT</h3>
+        <p>📞 085863586714</p>
+        <p>✉️ muhammadsuhaeri84@gmail.com</p>
+        <p>📍 Serang, Banten</p>
+
+        <h3>EDUCATION</h3>
+        <p><strong>Universitas Pamulang</strong></p>
+        <p>Program Studi Sistem Komputer</p>
+
+        <h3>SKILLS</h3>
+        <ul>
+            <li>• Networking</li>
+            <li>• Ethical Hacking</li>
+            <li>• Cisco Packet Tracer</li>
+            <li>• HTML & CSS</li>
+            <li>• IoT</li>
+            <li>• Troubleshooting</li>
+            <li>• Microsoft Office</li>
+        </ul>
+
+        <h3>SOFT SKILLS</h3>
+        <ul>
+            <li>• Disiplin</li>
+            <li>• Bertanggung Jawab</li>
+            <li>• Kerja Sama Tim</li>
+            <li>• Problem Solving</li>
+        </ul>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <div class="header">
+            <h1>CURRICULUM VITAE</h1>
+            <p>IT • NETWORKING • COMPUTER SYSTEM</p>
+        </div>
+
+        <div class="section">
+            <h2>ABOUT ME</h2>
+            <p>
+                Saya merupakan mahasiswa Program Studi Sistem Komputer
+                Universitas Pamulang yang memiliki minat dalam bidang
+                teknologi informasi, jaringan komputer, Internet of Things
+                (IoT), serta ethical hacking. Saya memiliki semangat
+                belajar yang tinggi, mampu bekerja secara mandiri maupun
+                dalam tim, serta memiliki komitmen untuk mengembangkan
+                keterampilan dan pengetahuan di bidang teknologi.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>EDUCATION</h2>
+
+            <div class="item">
+                <h4>Universitas Pamulang</h4>
+                <span>Program Studi Sistem Komputer</span>
+                <p>
+                    Mempelajari sistem komputer, jaringan komputer,
+                    pemrograman, serta teknologi berbasis IoT.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>PROJECTS</h2>
+
+            <div class="item">
+                <h4>IoT Smart Irrigation System</h4>
+                <p>
+                    Perancangan sistem penyiraman sawah otomatis
+                    berbasis Internet of Things untuk membantu
+                    monitoring dan pengendalian penyiraman.
+                </p>
+            </div>
+
+            <div class="item">
+                <h4>SCADA Web-Based Kran Monitoring</h4>
+                <p>
+                    Pengembangan sistem monitoring dan kontrol kran
+                    menggunakan HTML, CSS, JavaScript, Node.js,
+                    dan WebSocket.
+                </p>
+            </div>
+
+            <div class="item">
+                <h4>Network Configuration Cisco</h4>
+                <p>
+                    Konfigurasi jaringan menggunakan Cisco Packet Tracer,
+                    meliputi routing, DNS, IP Address, dan troubleshooting.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>TECHNICAL SKILLS</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Networking</span>
+                <span>Cisco</span>
+                <span>IoT</span>
+                <span>Node.js</span>
+                <span>Ethical Hacking</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>PERSONALITY</h2>
+            <p>
+                Disiplin, bertanggung jawab, pekerja keras,
+                memiliki rasa ingin tahu yang tinggi, dan
+                mampu beradaptasi dengan lingkungan baru.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
